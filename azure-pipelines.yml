@@ -16,7 +16,7 @@ steps:
     versionSpec: '3.x'
     addToPath: true
 
-- task: TerraformInstaller@01
+- task: ms-devlabs.custom-terraform-tasks.custom-terraform-installer-task
   displayName: "Use Terraform"
   inputs:
     terraformVersion: 'latest'
