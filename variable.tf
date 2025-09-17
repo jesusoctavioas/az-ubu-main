@@ -6,7 +6,7 @@ variable "prefix" {
 variable "location" {
   description = "eastus"
   default     = "eastus"
-} 
+}
 
 variable "subscription_id" {
 }
