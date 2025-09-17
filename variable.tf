@@ -11,3 +11,5 @@ variable "location" {
 variable "subscription_id" {
 }
 
+variable "admin_password" {
+}
