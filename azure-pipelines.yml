@@ -16,10 +16,10 @@ steps:
     versionSpec: '3.x'
     addToPath: true
 
-- task: ms-devlabs.custom-terraform-tasks.custom-terraform-installer-task
-  displayName: "Use Terraform"
+- task: charleszipp.azure-pipelines-tasks-terraform.azure-pipelines-tasks-terraform-installer.TerraformInstaller@0
+  displayName: 'Install Terraform'
   inputs:
-    terraformVersion: 'latest'
+    terraformVersion: $(terraformVersion)
 
 - script: |
     terraform init
