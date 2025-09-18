@@ -9,9 +9,9 @@ variable "location" {
 }
 
 variable "subscription_id" {
-  default = 
+  default = "f58421d9-8203-4079-90f4-3ce9bacecac3"
 }
 
 variable "admin_password" {
-  default = "3Vt7#Z0#6}{_"
+
 }
