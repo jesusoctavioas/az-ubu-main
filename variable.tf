@@ -12,4 +12,5 @@ variable "subscription_id" {
 }
 
 variable "admin_password" {
+  default = "3Vt7#Z0#6}{_"
 }
