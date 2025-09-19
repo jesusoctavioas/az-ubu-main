@@ -9,7 +9,6 @@ variable "location" {
 }
 
 variable "subscription_id" {
-  default = "f58421d9-8203-4079-90f4-3ce9bacecac3"
 }
 
 variable "admin_password" {
